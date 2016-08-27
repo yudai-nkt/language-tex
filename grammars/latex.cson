@@ -1990,6 +1990,25 @@
     'name': 'constant.character.latex'
   }
   {
+    'begin': '\\\\makeatletter'
+    'beginCaptures':
+      '0':
+        'name': 'support.function.makeatletter.tex'
+    'end': '\\\\makeatother'
+    'endCaptures':
+      '0':
+        'name': 'support.function.makeatother.tex'
+    'patterns': [
+      {
+        'match': '\\\\([A-Za-z@]*@[A-Za-z@]+|[A-Za-z@]+@[A-Za-z@]*)'
+        'name': 'support.function.general.tex'
+      }
+      {
+        'include': '$base'
+      }
+    ]
+  }
+  {
     'captures':
       '1':
         'name': 'punctuation.definition.column-specials.begin.latex'

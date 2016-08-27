@@ -118,14 +118,30 @@
     'captures':
       '1':
         'name': 'punctuation.definition.function.tex'
-    'match': '(\\\\)[A-Za-z@]+'
+    'match': '(\\\\)[A-Za-z]+'
     'name': 'support.function.general.tex'
+  }
+  {
+    'fileTypes': [
+      'sty'
+      'cls'
+      'code.tex'
+    ]
+    'patterns': [
+      {
+        'match': '\\\\([A-Za-z@]*@[A-Za-z@]+|[A-Za-z@]+@[A-Za-z@]*)'
+        'name': 'support.function.general.tex'
+      }
+      {
+        'include': '$base'
+      }
+    ]
   }
   {
     'captures':
       '1':
         'name': 'punctuation.definition.keyword.tex'
-    'match': '(\\\\)[^a-zA-Z@]'
+    'match': '(\\\\)[^a-zA-Z]'
     'name': 'constant.character.escape.tex'
   }
   {
