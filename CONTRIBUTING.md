@@ -53,6 +53,10 @@ Your `master` should be kept for syncing with the upstream `master` so that your
 - Make a blank line after the summary if the commit has body text.
 - Wrap the body at 72 characters or less.
 
+You can also refer to the notes above when you are writing commit message.
+
+![commit message guideline](./_img/commit.png)
+
 <p align="right"><a href="#top">⇧</a></p>
 
 ### Naming Scheme
