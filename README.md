@@ -21,6 +21,7 @@ If you prefer installation via GUI, you can go to `Atom` > `Settings` > `Install
 
 ### Contribution
 Contributions are highly welcome. Feel free to report an [issue](https://github.com/yudai-nkt/language-tex/issues) or create a [pull request](https://github.com/yudai-nkt/language-tex/pulls).
+If you are going to contribute, please do consult [CONTRIBUTING.md](./CONTRIBUTING.md) and follow the instruction there.
 
 ### License
 This package is distributed under the MIT License.
