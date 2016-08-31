@@ -1,0 +1,7 @@
+
+# - Use imperative mood.
+# - Start every line with an uppercased letter.
+# - Summarize the change in the first line with 50 characters or less.
+# - Do not end the summary line with a period.
+# - Make a blank line after the summary if the commit has body text.
+# - Wrap the body at 72 characters or less.
