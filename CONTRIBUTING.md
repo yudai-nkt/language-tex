@@ -25,7 +25,7 @@ If there are no duplicates, then please include the following information in you
 
 Regarding the code example, please __post it at least as a text__.
 You can of course attach a screenshot of how your snippet looks, but copy-and-pastable text helps me easily test your issue.
-<p align="right"><a href="#top">⇧</a></p>
+<p align="right"><a href="#guideline-for-contribution">⇧</a></p>
 
 ### Submitting Pull Request
 If you are willing to contribute with codes, why don't you submit a pull request?
@@ -57,9 +57,9 @@ You can also refer to the notes above when you are writing commit message.
 
 ![commit message guideline](./_img/commit.png)
 
-<p align="right"><a href="#top">⇧</a></p>
+<p align="right"><a href="#guideline-for-contribution">⇧</a></p>
 
 ### Naming Scheme
 Under construction.
 
-<p align="right"><a href="#top">⇧</a></p>
+<p align="right"><a href="#guideline-for-contribution">⇧</a></p>
