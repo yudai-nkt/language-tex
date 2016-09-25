@@ -28,8 +28,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -48,8 +46,6 @@
     'captures':
       '1':
         'name': 'support.function.frametitle.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':

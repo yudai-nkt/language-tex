@@ -10,14 +10,11 @@
     'name': 'meta.space-after-command.latex'
   }
   {
-    # 'begin': '((\\\\)(?:usepackage|documentclass))(?:(\\[)([^\\]]*)(\\]))?(\\{)'
     'begin': '(\\\\(?:usepackage|documentclass))(?:(\\[)([^\\]]*)(\\]))?(\\{)'
     'beginCaptures':
       '1':
         'name': 'keyword.control.preamble.latex'
       '2':
-      #   'name': 'punctuation.definition.function.latex'
-      # '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
         'name': 'variable.parameter.latex'
@@ -43,8 +40,6 @@
       '1':
         'name': 'keyword.control.include.latex'
       '2':
-      #   'name': 'punctuation.definition.function.latex'
-      # '3':
         'name': 'punctuation.definition.arguments.begin.latex'
     'contentName': 'support.class.latex'
     'end': '\\}'
@@ -147,8 +142,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -183,8 +176,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -219,8 +210,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -255,8 +244,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -291,8 +278,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -327,8 +312,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -363,8 +346,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -399,8 +380,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -435,8 +414,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -471,8 +448,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -507,8 +482,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -543,8 +516,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -579,8 +550,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -615,8 +584,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -651,8 +618,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -687,8 +652,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -723,8 +686,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -759,8 +720,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -795,8 +754,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -831,8 +788,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -867,8 +822,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -903,8 +856,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -939,8 +890,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -975,8 +924,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1011,8 +958,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1047,8 +992,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1083,8 +1026,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1119,8 +1060,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1155,8 +1094,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1191,8 +1128,6 @@
         'name': 'meta.function.embedded.latex'
       '2':
         'name': 'support.function.be.latex'
-      # '3':
-      #   'name': 'punctuation.definition.function.latex'
       '3':
         'name': 'punctuation.definition.arguments.begin.latex'
       '4':
@@ -1272,8 +1207,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1302,8 +1235,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1318,8 +1249,6 @@
     'captures':
       '1':
         'name': 'support.function.url.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1333,8 +1262,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1349,8 +1276,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1365,8 +1290,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1387,8 +1310,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1415,8 +1336,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1443,8 +1362,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1465,8 +1382,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
       '3':
@@ -1515,8 +1430,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.latex'
       '3':
@@ -1536,8 +1449,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.latex'
       '3':
@@ -1560,8 +1471,6 @@
     'captures':
       '1':
         'name': 'support.function.be.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.arguments.latex'
       '3':
@@ -1577,9 +1486,6 @@
     ]
   }
   {
-    # 'captures':
-    #   '1':
-    #     'name': 'punctuation.definition.function.latex'
     'match': '\\\\((re)?new|provide)command\\b'
     'name': 'storage.type.function.latex'
   }
@@ -1600,8 +1506,6 @@
     'beginCaptures':
       '1':
         'name': 'support.function.marginpar.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.marginpar.begin.latex'
     'contentName': 'meta.paragraph.margin.latex'
@@ -1620,8 +1524,6 @@
     'beginCaptures':
       '1':
         'name': 'support.function.footnote.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'patterns': [
           {
@@ -1653,8 +1555,6 @@
     'beginCaptures':
       '1':
         'name': 'support.function.emph.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.emph.begin.latex'
     'contentName': 'markup.italic.emph.latex'
@@ -1674,8 +1574,6 @@
     'captures':
       '1':
         'name': 'support.function.textit.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.textit.begin.latex'
     'comment': 'We put the keyword in a capture and name this capture, so that disabling spell checking for “keyword” won\'t be inherited by the argument to \\textit{...}.\n\nPut specific matches for particular LaTeX keyword.functions before the last two more general functions'
@@ -1696,8 +1594,6 @@
     'captures':
       '1':
         'name': 'support.function.textbf.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.textbf.begin.latex'
     'contentName': 'markup.bold.textbf.latex'
@@ -1717,8 +1613,6 @@
     'captures':
       '1':
         'name': 'support.function.texttt.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.texttt.begin.latex'
     'contentName': 'markup.raw.texttt.latex'
@@ -1737,8 +1631,6 @@
     'captures':
       '0':
         'name': 'keyword.other.item.latex'
-      # '1':
-      #   'name': 'punctuation.definition.keyword.latex'
     'match': '\\\\item\\b'
     'name': 'meta.scope.item.latex'
   }
@@ -1747,8 +1639,6 @@
     'captures':
       '1':
         'name': 'keyword.control.cite.latex'
-      # '2':
-      #   'name': 'punctuation.definition.keyword.latex'
       '2':
         'name': 'punctuation.definition.arguments.optional.begin.latex'
       '3':
@@ -1794,8 +1684,6 @@
     'beginCaptures':
       '1':
         'name': 'keyword.control.ref.latex'
-      # '2':
-      #   'name': 'punctuation.definition.keyword.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
     'end': '\\}'
@@ -1815,8 +1703,6 @@
     'beginCaptures':
       '1':
         'name': 'keyword.control.label.latex'
-      # '2':
-      #   'name': 'punctuation.definition.keyword.latex'
       '2':
         'name': 'punctuation.definition.arguments.begin.latex'
     'end': '\\}'
@@ -1836,8 +1722,6 @@
     'beginCaptures':
       '1':
         'name': 'support.function.verb.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'support.function.verb.latex'
       '3':
@@ -1860,8 +1744,6 @@
     'captures':
       '1':
         'name': 'support.function.verb.latex'
-      # '2':
-      #   'name': 'punctuation.definition.function.latex'
       '2':
         'name': 'punctuation.definition.verb.latex'
       '3':
@@ -1984,9 +1866,6 @@
     ]
   }
   {
-    # 'captures':
-    #   '1':
-    #     'name': 'punctuation.definition.constant.latex'
     'match': '\\\\(text(s(terling|ixoldstyle|urd|e(ction|venoldstyle|rvicemark))|yen|n(ineoldstyle|umero|aira)|c(ircledP|o(py(left|right)|lonmonetary)|urrency|e(nt(oldstyle)?|lsius))|t(hree(superior|oldstyle|quarters(emdash)?)|i(ldelow|mes)|w(o(superior|oldstyle)|elveudash)|rademark)|interrobang(down)?|zerooldstyle|o(hm|ne(superior|half|oldstyle|quarter)|penbullet|rd(feminine|masculine))|d(i(scount|ed|v(orced)?)|o(ng|wnarrow|llar(oldstyle)?)|egree|agger(dbl)?|blhyphen(char)?)|uparrow|p(ilcrow|e(so|r(t(housand|enthousand)|iodcentered))|aragraph|m)|e(stimated|ightoldstyle|uro)|quotes(traight(dblbase|base)|ingle)|f(iveoldstyle|ouroldstyle|lorin|ractionsolidus)|won|l(not|ira|e(ftarrow|af)|quill|angle|brackdbl)|a(s(cii(caron|dieresis|acute|grave|macron|breve)|teriskcentered)|cutedbl)|r(ightarrow|e(cipe|ferencemark|gistered)|quill|angle|brackdbl)|g(uarani|ravedbl)|m(ho|inus|u(sicalnote)?|arried)|b(igcircle|orn|ullet|lank|a(ht|rdbl)|rokenbar)))\\b'
     'name': 'constant.character.latex'
   }
