@@ -54,7 +54,7 @@
     ]
   }
   {
-    'begin': '(?x)\n\t\t\t\t(\t\t\t\t\t\t\t\t\t\t\t\t\t# Capture 1\n\t\t\t\t\t(\\\\)\t\t\t\t\t\t\t\t\t\t\t# Marker\n\t\t\t\t\t(\n\t\t\t\t\t\t(?:sub){0,2}section\t\t\t\t\t\t\t# Functions\n\t\t\t\t\t  | (?:sub)?paragraph\n\t\t\t\t\t  | chapter|part|addpart\n\t\t\t\t\t  | addchap|addsec|minisec\n\t\t\t\t\t)\n\t\t\t\t\t)(?:\\*)?\t\t\t\t\t\t\t\t\t\t\t# Optional Unnumbered\n\t\t\t\t\n\t\t\t\t(?:\n\t\t\t\t\t(\\[)([^\\[]*?)(\\])\t\t\t\t\t\t\t\t# Optional Title\n\t\t\t\t)??\n\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t\t\t# Opening Bracket\n\t\t\t\t'
+    'begin': '(?x)((\\\\)((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart| addchap|addsec|minisec))(?:\\*)?(?:(\\[)([^\\[]*?)(\\]))??(\\{)'
     'beginCaptures':
       '1':
         'name': 'support.function.section.latex'
@@ -1286,7 +1286,7 @@
     'name': 'meta.function.end-document.latex'
   }
   {
-    'begin': '(?x)\n\t\t\t\t\t(?:\\s*)\t\t\t\t\t\t\t\t\t\t# Optional whitespace\n\t\t\t\t\t(\\\\begin)\t\t\t\t\t\t\t\t\t# Marker - Function\n\t\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t# Open Bracket\n\t\t\t\t\t\t(\n\t\t\t\t\t\t\t(?:\n\t\t\t\t\t\t\t\talign|equation\t\t\t# Argument\n\t\t\t\t\t\t\t  | multline\n\t\t\t\t\t\t\t  | split|gather\n\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t(?:\\*)?\t\t\t\t\t\t\t\t# Optional Unnumbered\n\t\t\t\t\t\t)\n\t\t\t\t\t(\\})\t\t\t\t\t\t\t\t\t\t# Close Bracket\n\t\t\t\t\t(\\s*\\n)?\t\t\t\t# Match to end of line absent of content\n\t\t\t\t'
+    'begin': '(?x)(?:\\s*)(\\\\begin)(\\{)((?:align|equation|multline|split|gather)(?:\\*)?)(\\})(\\s*\\n)?'
     'captures':
       '1':
         'name': 'support.function.be.latex'
@@ -1297,7 +1297,7 @@
       '4':
         'name': 'punctuation.definition.arguments.end.latex'
     'contentName': 'string.other.math.block.environment.latex'
-    'end': '(?x)\n\t\t\t\t\t(?:\\s*)\t\t\t\t\t\t\t\t\t\t# Optional whitespace\n\t\t\t\t\t(\\\\end)\t\t\t\t\t\t\t\t\t# Marker - Function\n\t\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t# Open Bracket\n\t\t\t\t\t\t(\\3)\t\t\t\t# Previous capture from begin\n\t\t\t\t\t(\\})\t\t\t\t\t\t\t\t\t\t# Close Bracket\n\t\t\t\t\t(?:\\s*\\n)?\t\t\t\t# Match to end of line absent of content\n\t\t\t\t'
+    'end': '(?x)(?:\\s*)(\\\\end)(\\{)(\\3)(\\})(?:\\s*\\n)?'
     'name': 'meta.function.environment.math.latex'
     'patterns': [
       {
@@ -1378,7 +1378,7 @@
     ]
   }
   {
-    'begin': '(?x)\n\t\t\t\t\t(?:\\s*)\t\t\t\t\t\t\t\t\t\t# Optional whitespace\n\t\t\t\t\t(\\\\begin)\t\t\t\t\t\t\t\t\t# Marker - Function\n\t\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t# Open Bracket\n\t\t\t\t\t\t(array|tabular[xy*]?)\n\t\t\t\t\t(\\})\t\t\t\t\t\t\t\t\t\t# Close Bracket\n\t\t\t\t\t(\\s*\\n)?\t\t\t\t# Match to end of line absent of content\n\t\t\t\t'
+    'begin': '(?x)(?:\\s*)(\\\\begin)(\\{)(array|tabular[xy*]?)(\\})(\\s*\\n)?'
     'captures':
       '1':
         'name': 'support.function.be.latex'
@@ -1389,7 +1389,7 @@
       '4':
         'name': 'punctuation.definition.arguments.end.latex'
     'contentName': 'meta.data.environment.tabular.latex'
-    'end': '(?x)\n\t\t\t\t\t(?:\\s*)\t\t\t\t\t\t\t\t\t\t# Optional whitespace\n\t\t\t\t\t(\\\\end)\t\t\t\t\t\t\t\t\t# Marker - Function\n\t\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t# Open Bracket\n\t\t\t\t\t\t(\\3)\t\t\t\t# Previous capture from begin\n\t\t\t\t\t(\\})\t\t\t\t\t\t\t\t\t\t# Close Bracket\n\t\t\t\t\t(?:\\s*\\n)?\t\t\t\t# Match to end of line absent of content\n\t\t\t\t'
+    'end': '(?x)(?:\\s*)(\\\\end)(\\{)(\\3)(\\})(?:\\s*\\n)?'
     'name': 'meta.function.environment.tabular.latex'
     'patterns': [
       {
@@ -1635,7 +1635,7 @@
     'name': 'meta.scope.item.latex'
   }
   {
-    'begin': '(?x)\n\t\t\t\t\t(\n\t\t\t\t\t\t\\\\\t\t\t\t\t\t\t\t\t\t# Marker\n\t\t\t\t\t\t(?:auto)?(?:foot)?(?:full)?(?:no)?(?:short)?\t\t# Function Name\n\t\t\t\t\t\t[cC]ite\n\t\t\t\t\t\t(?:al)?(?:t|p|author|year(?:par)?|title)?[ANP]*\n\t\t\t\t\t\t\\*?\t\t\t\t\t\t\t\t\t\t\t# Optional Unabreviated\n\t\t\t\t\t)\n\t\t\t\t\t(?:(\\[)[^\\]]*(\\]))?\t\t\t\t\t\t\t\t# Optional\n\t\t\t\t\t(?:(\\[)[^\\]]*(\\]))?\t\t\t\t\t\t\t\t#   Arguments\n\t\t\t\t\t(\\{)\t\t\t\t\t\t\t\t\t\t\t# Opening Bracket\n\t\t\t\t'
+    'begin': '(?x)(\\\\(?:auto)?(?:foot)?(?:full)?(?:no)?(?:short)?[cC]ite(?:al)?(?:t|p|author|year(?:par)?|title)?[ANP]*\\*?)(?:(\\[)[^\\]]*(\\]))?(?:(\\[)[^\\]]*(\\]))?(\\{)'
     'captures':
       '1':
         'name': 'keyword.control.cite.latex'
