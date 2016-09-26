@@ -54,19 +54,17 @@
     ]
   }
   {
-    'begin': '(?x)((\\\\)((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart| addchap|addsec|minisec))(?:\\*)?(?:(\\[)([^\\[]*?)(\\]))??(\\{)'
+    'begin': '(?x)(\\\\((?:sub){0,2}section|(?:sub)?paragraph|chapter|part|addpart| addchap|addsec|minisec))(?:\\*)?(?:(\\[)([^\\[]*?)(\\]))?(\\{)'
     'beginCaptures':
       '1':
         'name': 'support.function.section.latex'
-      '2':
-        'name': 'punctuation.definition.function.latex'
-      '4':
+      '3':
         'name': 'punctuation.definition.arguments.optional.begin.latex'
-      '5':
+      '4':
         'name': 'entity.name.section.latex'
-      '6':
+      '5':
         'name': 'punctuation.definition.arguments.optional.end.latex'
-      '7':
+      '6':
         'name': 'punctuation.definition.arguments.begin.latex'
     'comment': 'this works OK with all kinds of crazy stuff as long as section is one line'
     'contentName': 'entity.name.section.latex'
@@ -74,7 +72,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.arguments.end.latex'
-    'name': 'meta.function.section.$3.latex'
+    'name': 'meta.function.section.$2.latex'
     'patterns': [
       {
         'include': '$self'
