@@ -2,8 +2,12 @@ Changelog
 ---
 All notable changes to the project will be documented in this file.
 
-### [Unreleased](https://github.com/yudai-nkt/language-tex/compare/v0.3.1...master)
+### [Unreleased](https://github.com/yudai-nkt/language-tex/compare/v0.4.0...master)
 Please see the link above though it is not well summarized.
+
+### [v0.3.1](https://github.com/yudai-nkt/language-tex/compare/v0.3.1...v0.4.0)
+#### Changed
+- Enhance the flexibility of TeX magic comment
 
 ### [v0.3.1](https://github.com/yudai-nkt/language-tex/compare/v0.3.0...v0.3.1)
 #### Fixed

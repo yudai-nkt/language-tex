@@ -1,5 +1,7 @@
 `language-tex` package
 ---
+:warning: __Since I was added to a [`language-latex`](https://github.com/area/language-latex)'s collaborator, no development will be made here for a while. Please switch to `language-latex` package.__
+
 An Atom package that provides grammar and snippets of TeX and its related stuff.
 
 ![sample of language-tex package](https://github.com/yudai-nkt/language-tex/blob/master/_img/preview.png?raw=true "sample of language-tex package")
