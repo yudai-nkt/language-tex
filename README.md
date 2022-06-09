@@ -1,3 +1,5 @@
+**GitHub has [announced](https://github.blog/2022-06-08-sunsetting-atom/) that they will archive Atom project, so is this repository.**
+
 `language-tex` package
 ---
 :warning: __Since I was added to a [`language-latex`](https://github.com/area/language-latex)'s collaborator, no development will be made here for a while. Please switch to `language-latex` package.__
